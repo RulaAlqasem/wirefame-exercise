@@ -1,5 +1,5 @@
 header{
-    background-color: gray;
+    background-color: rgb(85, 85, 85);
     margin-bottom: 0px;
     width: 100%;
     font-size: 20px;
@@ -62,7 +62,6 @@ main ul li img{
 }
  #right{
     float: right;
-    background-color: #f1f1f1;
     width: 50%;
     margin-top: 22px;
     height: 458px;
@@ -102,7 +101,7 @@ button:hover {
   }
 footer {
     clear: both;
-    background-color: gray;
+    background-color: rgb(85, 85, 85);
     height: 250px;
 }
 #nav1 > a{
