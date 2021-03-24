@@ -28,15 +28,20 @@ header img{
     margin-bottom: 20px;
     margin-left: 40px;}
 
-.nav2{
-    margin-left: 20px;
-}
+
 #nav1{
 
         text-decoration:none;
         margin-left: 0px;
     }
-    
+    #nav2 > img{
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
     #imf{
         
         margin-top: 20px;
@@ -85,6 +90,12 @@ main section p{
 
    
 }
+#nav2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 90px;
+}
 button:hover {
     background-color:rgb(170, 87, 87);
     animation-duration: 350ms;
@@ -94,3 +105,29 @@ footer {
     background-color: gray;
     height: 250px;
 }
+#nav1 > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #000;
+    margin-right: 0px;
+    padding-right: 100px;
+}
+#nav2 > ul > li > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #000;
+    padding-right: 100px;
+}
+#nav2 > ul{    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-bottom: 10px;}
